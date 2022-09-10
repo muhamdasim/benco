@@ -1,6 +1,4 @@
 from os import listdir
-from tkinter.messagebox import NO
-from unicodedata import category
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
