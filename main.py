@@ -81,6 +81,7 @@ class Scrapper():
 masterData=[]
 for index,i in df.iterrows():
     obj=Scrapper(i['url'])
+    print(index)
     obj.sendRequest()
     obj.getSellerSKU()
     obj.getCategory()
